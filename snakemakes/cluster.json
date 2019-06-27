@@ -1,0 +1,70 @@
+{
+    "__default__" :
+    {
+        "queue"     : "short",
+        "time"      : "2:00",
+        "nCPUs"     : "2",
+        "memory"    : "\"rusage[mem=20000]\"",
+        "resources" : "\"span[hosts=1]\"",
+        "name"      : "{rule}.{wildcards}",
+        "output"    : "logs/cluster/{rule}.{wildcards.hic_name}.out",
+        "error"     : "logs/cluster/{rule}.{wildcards.hic_name}.err"
+    },
+
+    "custom_rebalance" :
+    {
+        "nCPUs"     : "9",
+        "time"      : "4:00",
+        "memory"    : "\"rusage[mem=10000]\""
+    },
+
+    "compute_n_clean_expected" :
+    {
+        "nCPUs"     : "9",
+        "time"      : "4:00",
+        "memory"    : "\"rusage[mem=200000]\""
+    },
+
+    "call_dots" :
+    {
+        "nCPUs"     : "12",
+        "queue"     : "long",
+        "time"      : "8:00",
+        "memory"    : "\"rusage[mem=6000]\""
+    },
+
+    "prepare_multires" :
+    {
+        "nCPUs"     : "2",
+        "time"      : "4:00",
+        "memory"    : "\"rusage[mem=32000]\""
+    },
+
+    "compute_insulation" :
+    {
+        "nCPUs"     : "4",
+        "time"      : "3:00",
+        "memory"    : "\"rusage[mem=8000]\""
+    },
+    
+    "call_compartments" :
+    {
+        "nCPUs"     : "9",
+        "time"      : "3:00",
+        "memory"    : "\"rusage[mem=200000]\""
+    },
+
+    "compute_saddle" :
+    {
+        "nCPUs"     : "4",
+        "time"      : "3:00",
+        "memory"    : "\"rusage[mem=10000]\""
+    },
+
+    "compute_scaling" :
+    {
+        "nCPUs"     : "8",
+        "time"      : "3:00",
+        "memory"    : "\"rusage[mem=70000]\""
+    }
+}

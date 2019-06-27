@@ -1,0 +1,636 @@
+input:
+    raw_reads_paths:
+        U54-ESC-FA-DpnII-030917__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-ESC-FA-DpnII-20170309/U54-ESC-FA-DpnII-20170309_S8_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-ESC-FA-DpnII-20170309/U54-ESC-FA-DpnII-20170309_S8_L006_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L001_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L002_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L003_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L004_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L005_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L006_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L007_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L008_R2_001.fastq.gz
+            lane10:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/27MAR17_BHJ2MTBB_C-Monster_PE50x50_only/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/27MAR17_BHJ2MTBB_C-Monster_PE50x50_only/U54-ESC-FA-DpnII-030917/U54-ESC-FA-DpnII-030917_S1_L001_R2_001.fastq.gz
+        U54-ESC4DN-FA-DpnII-2017524-R1-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L003_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S1_L008_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/31MAY17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S8_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/31MAY17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T2/U54-ESC4DN-FA-DpnII-2017524-R1-T2_S8_L008_R2_001.fastq.gz
+        U54-ESC4DN-FA-DpnII-2017524-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L003_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/09JUN17_C-Monster-A_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S1_L008_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/31MAY17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S7_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/31MAY17_C-Monster-B_JHG/U54-ESC4DN-FA-DpnII-2017524-R1-T1/U54-ESC4DN-FA-DpnII-2017524-R1-T1_S7_L007_R2_001.fastq.gz
+        U54-ENDMaehr-FA-DpnII-20181023-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_a/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_a/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_b/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_b/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_c/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_c/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L003_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_d/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_d/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_e/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_e/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_f/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_f/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_g/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_g/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_h/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/04DEC18_C-Monster/04DEC18_C-Monster_LY_h/U54-ENDMaehr-FA-DpnII-201810123-R2-T1/U54-ENDMaehr-FA-DpnII-201810123-R2-T1_S1_L008_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/24OCT18_C-Monster/24OCT18_C-Monster_LY/U54-ENDMaehr-FA-Dekker-DpnII-20181023-R2-T1/U54-ENDMaehr-FA-Dekker-DpnII-20181023-R2-T1_S26_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/24OCT18_C-Monster/24OCT18_C-Monster_LY/U54-ENDMaehr-FA-Dekker-DpnII-20181023-R2-T1/U54-ENDMaehr-FA-Dekker-DpnII-20181023-R2-T1_S26_L006_R2_001.fastq.gz
+        U54-END-FA-DpnII-030917__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L003_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/15JUN17_C-Monster_JHG/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S1_L008_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/27MAR17_BHJ2MTBB_C-Monster_PE50x50_only/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/27MAR17_BHJ2MTBB_C-Monster_PE50x50_only/U54-END-FA-DpnII-030917/U54-END-FA-DpnII-030917_S2_L002_R2_001.fastq.gz
+        U54-HFFc6-DSG-DdeI-20181023-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_a/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_a/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_b/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_b/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_c/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_c/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L003_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_d/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_d/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_e/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_e/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_f/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_f/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_g/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_g/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_h/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/05DEC18_C-Monster/05DEC18_C-Monster_LY_h/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S1_L008_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/24OCT18_C-Monster/24OCT18_C-Monster_LY/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S29_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/24OCT18_C-Monster/24OCT18_C-Monster_LY/U54-HFFc6-DSG-DdeI-20181023-R2-T1/U54-HFFc6-DSG-DdeI-20181023-R2-T1_S29_L008_R2_001.fastq.gz
+        U54-HFFc6-DSG-DdeI-20180319-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-a/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-a/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L005_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-b/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-b/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L006_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-c/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-c/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L007_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-d/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/11APR18_C-Monster-A/11APR18_C-Monster-A_LY-d/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S9_L008_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_a/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_a/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L001_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_b/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_b/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L002_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/27MAR18_C-Monster-B/27MAR18_C-Monster-B_LY/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/27MAR18_C-Monster-B/27MAR18_C-Monster-B_LY/U54-HFFc6-DSG-DdeI-20180319-R1-T1/U54-HFFc6-DSG-DdeI-20180319-R1-T1_S1_L001_R2_001.fastq.gz
+        U54-HFFc6-DSG-DpnII-20190102-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/04JAN19_C-Monster/04JAN19_C-Monster_LY_a/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S8_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/04JAN19_C-Monster/04JAN19_C-Monster_LY_a/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S8_L006_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/04JAN19_C-Monster/04JAN19_C-Monster_LY_b/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S8_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/04JAN19_C-Monster/04JAN19_C-Monster_LY_b/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S8_L007_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/12FEB19_C-Monster/12FEB19_C-Monster_LY/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/12FEB19_C-Monster/12FEB19_C-Monster_LY/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S1_L001_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_a/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_a/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L004_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_b/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_b/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L005_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_c/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_c/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L006_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_d/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_d/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L007_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_e/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/29JAN19_C-Monster/29JAN19_C-Monster_LY_e/U54-HFFc6-DSG-DpnII-20190102-R2-T1/U54-HFFc6-DSG-DpnII-20190102-R2-T1_S17_L008_R2_001.fastq.gz
+        U54-HFFc6-DSG-DpnII-20180319-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_c/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_c/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L003_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_d/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_d/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L004_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_e/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_e/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L005_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_f/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_f/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L006_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_g/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_g/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L007_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_h/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/18APR18_C-Monster-B/18APR18_C-Monster-B_LY_h/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L008_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/27MAR18_C-Monster-B/27MAR18_C-Monster-B_LY/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/27MAR18_C-Monster-B/27MAR18_C-Monster-B_LY/U54-HFFc6-DSG-DpnII-20180319-R1-T1/U54-HFFc6-DSG-DpnII-20180319-R1-T1_S2_L002_R2_001.fastq.gz
+        U54-HFFc6-p17-FA-DpnII-20170327__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/03MAY17_C-Monster-B_JHG/U54-HFFc6-p17-FA-DpnII-20170327-H/U54-HFFc6-p17-FA-DpnII-20170327-H_S7_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/03MAY17_C-Monster-B_JHG/U54-HFFc6-p17-FA-DpnII-20170327-H/U54-HFFc6-p17-FA-DpnII-20170327-H_S7_L007_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327/U54-HFFc6-p17-FA-DpnII-20170327_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327/U54-HFFc6-p17-FA-DpnII-20170327_S1_L001_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-A/U54-HFFc6-p17-FA-DpnII-20170327-A_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-A/U54-HFFc6-p17-FA-DpnII-20170327-A_S1_L001_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-B/U54-HFFc6-p17-FA-DpnII-20170327-B_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-B/U54-HFFc6-p17-FA-DpnII-20170327-B_S2_L002_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-C/U54-HFFc6-p17-FA-DpnII-20170327-C_S3_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-C/U54-HFFc6-p17-FA-DpnII-20170327-C_S3_L003_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-D/U54-HFFc6-p17-FA-DpnII-20170327-D_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-D/U54-HFFc6-p17-FA-DpnII-20170327-D_S4_L004_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-E/U54-HFFc6-p17-FA-DpnII-20170327-E_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-E/U54-HFFc6-p17-FA-DpnII-20170327-E_S1_L001_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-F/U54-HFFc6-p17-FA-DpnII-20170327-F_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-F/U54-HFFc6-p17-FA-DpnII-20170327-F_S2_L002_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-G/U54-HFFc6-p17-FA-DpnII-20170327-G_S3_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p17-FA-DpnII-20170327-G/U54-HFFc6-p17-FA-DpnII-20170327-G_S3_L003_R2_001.fastq.gz
+        U54-HFFc6-p22-FA-DpnII-20170327__hg38:
+            lane1:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/03MAY17_C-Monster-B_JHG/U54-HFFc6-p22-FA-DpnII-20170327-H/U54-HFFc6-p22-FA-DpnII-20170327-H_S8_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/03MAY17_C-Monster-B_JHG/U54-HFFc6-p22-FA-DpnII-20170327-H/U54-HFFc6-p22-FA-DpnII-20170327-H_S8_L008_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327/U54-HFFc6-p22-FA-DpnII-20170327_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/14APR17_C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327/U54-HFFc6-p22-FA-DpnII-20170327_S2_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-A/U54-HFFc6-p22-FA-DpnII-20170327-A_S5_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-A/U54-HFFc6-p22-FA-DpnII-20170327-A_S5_L005_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-B/U54-HFFc6-p22-FA-DpnII-20170327-B_S6_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-B/U54-HFFc6-p22-FA-DpnII-20170327-B_S6_L006_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-C/U54-HFFc6-p22-FA-DpnII-20170327-C_S7_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-C/U54-HFFc6-p22-FA-DpnII-20170327-C_S7_L007_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-D/U54-HFFc6-p22-FA-DpnII-20170327-D_S8_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-D/U54-HFFc6-p22-FA-DpnII-20170327-D_S8_L008_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-E/U54-HFFc6-p22-FA-DpnII-20170327-E_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-E/U54-HFFc6-p22-FA-DpnII-20170327-E_S4_L004_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-F/U54-HFFc6-p22-FA-DpnII-20170327-F_S5_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-F/U54-HFFc6-p22-FA-DpnII-20170327-F_S5_L005_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-G/U54-HFFc6-p22-FA-DpnII-20170327-G_S6_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/archive/tmp_cshare/solexa/25APR17-C-Monster_JHG/U54-HFFc6-p22-FA-DpnII-20170327-G/U54-HFFc6-p22-FA-DpnII-20170327-G_S6_L006_R2_001.fastq.gz
+        U54-hEND4DN-FA-DpnII-02082019-R3-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/07MAR19_C-Monster/07MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S7_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/07MAR19_C-Monster/07MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S7_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L004_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L005_R2_001.fastq.gz
+            lane4:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L006_R2_001.fastq.gz
+            lane5:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L007_R2_001.fastq.gz
+            lane6:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/19MAR19_C-Monster/19MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S4_L008_R2_001.fastq.gz
+            lane7:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/21FEB19_C-Monster/21FEB19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S7_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/21FEB19_C-Monster/21FEB19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S7_L002_R2_001.fastq.gz
+            lane8:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/26MAR19_C-Monster/26MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S3_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/26MAR19_C-Monster/26MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S3_L004_R2_001.fastq.gz
+            lane9:
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/26MAR19_C-Monster/26MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S3_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2019/fastq/26MAR19_C-Monster/26MAR19_C-Monster_LY/U54-hEND4DN-FA-DpnII-02082019-R3-T3/U54-hEND4DN-FA-DpnII-02082019-R3-T3_S3_L005_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R1-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T4/lane_1/U54-END4DN-FA-DSG-MNase-R1-T4_S2_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T4/lane_1/U54-END4DN-FA-DSG-MNase-R1-T4_S2_L003_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T4/lane_2/U54-END4DN-FA-DSG-MNase-R1-T4_S2_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T4/lane_2/U54-END4DN-FA-DSG-MNase-R1-T4_S2_L004_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R1-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T3/lane_1/U54-END4DN-FA-DSG-MNase-R1-T3_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T3/lane_1/U54-END4DN-FA-DSG-MNase-R1-T3_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T3/lane_2/U54-END4DN-FA-DSG-MNase-R1-T3_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R1-T3/lane_2/U54-END4DN-FA-DSG-MNase-R1-T3_S1_L002_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R1-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T2/lane_1/U54-END4DN-FA-DSG-MNase-R1-T2_S4_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T2/lane_1/U54-END4DN-FA-DSG-MNase-R1-T2_S4_L007_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T2/lane_2/U54-END4DN-FA-DSG-MNase-R1-T2_S4_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T2/lane_2/U54-END4DN-FA-DSG-MNase-R1-T2_S4_L008_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T1/lane_1/U54-END4DN-FA-DSG-MNase-R1-T1_S3_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T1/lane_1/U54-END4DN-FA-DSG-MNase-R1-T1_S3_L005_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T1/lane_2/U54-END4DN-FA-DSG-MNase-R1-T1_S3_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-END4DN-FA-DSG-MNase-R1-T1/lane_2/U54-END4DN-FA-DSG-MNase-R1-T1_S3_L006_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R2-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T4/lane_1/U54-END4DN-FA-DSG-MNase-R2-T4_S13_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T4/lane_1/U54-END4DN-FA-DSG-MNase-R2-T4_S13_L006_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T4/lane_2/U54-END4DN-FA-DSG-MNase-R2-T4_S13_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T4/lane_2/U54-END4DN-FA-DSG-MNase-R2-T4_S13_L007_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R2-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T3/lane_1/U54-END4DN-FA-DSG-MNase-R2-T3_S12_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T3/lane_1/U54-END4DN-FA-DSG-MNase-R2-T3_S12_L004_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T3/lane_2/U54-END4DN-FA-DSG-MNase-R2-T3_S12_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/13JULY18_C-Monster_A/13JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T3/lane_2/U54-END4DN-FA-DSG-MNase-R2-T3_S12_L005_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R2-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T2/lane_1/U54-END4DN-FA-DSG-MNase-R2-T2_S4_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T2/lane_1/U54-END4DN-FA-DSG-MNase-R2-T2_S4_L007_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T2/lane_2/U54-END4DN-FA-DSG-MNase-R2-T2_S4_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T2/lane_2/U54-END4DN-FA-DSG-MNase-R2-T2_S4_L008_R2_001.fastq.gz
+        U54-END4DN-FA-DSG-MNase-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T1/lane_1/U54-END4DN-FA-DSG-MNase-R2-T1_S3_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T1/lane_1/U54-END4DN-FA-DSG-MNase-R2-T1_S3_L005_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T1/lane_2/U54-END4DN-FA-DSG-MNase-R2-T1_S3_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/20JULY18_C-Monster_A/20JULY18_C-Monster_A_U54/U54-END4DN-FA-DSG-MNase-R2-T1/lane_2/U54-END4DN-FA-DSG-MNase-R2-T1_S3_L006_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R1-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S32_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S32_L008_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S21_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S21_L004_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S6_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T4/U54-H1ESC4DN-FA-DSG-MNase-R1-T4_S6_L006_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R1-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S35_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S35_L008_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S24_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S24_L007_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T3/U54-H1ESC4DN-FA-DSG-MNase-R1-T3_S1_L001_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R1-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S34_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S34_L008_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S23_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S23_L006_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S8_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T2/U54-H1ESC4DN-FA-DSG-MNase-R1-T2_S8_L008_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S33_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/01DEC17_C-Monster/01DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S33_L008_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S22_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S22_L005_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S7_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-H1ESC4DN-FA-DSG-MNase-R1-T1/U54-H1ESC4DN-FA-DSG-MNase-R1-T1_S7_L007_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R2-T5__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T5/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T5_S3_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T5/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T5_S3_L005_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T5/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T5_S3_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T5/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T5_S3_L006_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R2-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T4/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T4_S2_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T4/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T4_S2_L003_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T4/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T4_S2_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T4/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T4_S2_L004_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R2-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T3/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T3_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T3/lane_1/U54-H1ESC4DN-FA-DSG-MNase-R2-T3_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T3/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T3_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T3/lane_2/U54-H1ESC4DN-FA-DSG-MNase-R2-T3_S1_L002_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R2-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T2/U54-H1ESC4DN-FA-DSG-MNase-R2-T2_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T2/U54-H1ESC4DN-FA-DSG-MNase-R2-T2_S2_L002_R2_001.fastq.gz
+        U54-H1ESC4DN-FA-DSG-MNase-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T1/U54-H1ESC4DN-FA-DSG-MNase-R2-T1_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-H1ESC4DN-FA-DSG-MNase-R2-T1/U54-H1ESC4DN-FA-DSG-MNase-R2-T1_S1_L001_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T6__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S5_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S5_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S3_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S3_L003_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S5_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T6/U54-HFFc64DN-FA-DSG-MNase-R1-T6_S5_L005_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T5__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S4_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S4_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S2_L002_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T5/U54-HFFc64DN-FA-DSG-MNase-R1-T5_S4_L004_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S3_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S3_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S1_L001_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S3_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T4/U54-HFFc64DN-FA-DSG-MNase-R1-T4_S3_L003_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S2_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S25_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/19DEC17_C-Monster/19DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S25_L008_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S2_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T3/U54-HFFc64DN-FA-DSG-MNase-R1-T3_S2_L002_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S7_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S7_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S5_L005_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S5_L005_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S7_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T2/U54-HFFc64DN-FA-DSG-MNase-R1-T2_S7_L007_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R1-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S6_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/13DEC17_C-Monster/13DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S6_L002_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2017/fastq/22DEC17_C-Monster/22DEC17_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S4_L004_R2_001.fastq.gz
+            lane3:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S6_L006_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/03JAN18_C-Monster/03JAN18_C-Monster_JHG/U54-HFFc64DN-FA-DSG-MNase-R1-T1/U54-HFFc64DN-FA-DSG-MNase-R1-T1_S6_L006_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R2-T5__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T5/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T5_S2_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T5/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T5_S2_L003_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T5/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T5_S2_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T5/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T5_S2_L004_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R2-T4__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T4/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T4_S1_L001_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T4/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T4_S1_L001_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T4/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T4_S1_L002_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_B/17JULY18_C-Monster_B_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T4/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T4_S1_L002_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R2-T3__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T3/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T3_S4_L007_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T3/lane_1/U54-HFFc64DN-FA-DSG-MNase-R2-T3_S4_L007_R2_001.fastq.gz
+            lane2:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T3/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T3_S4_L008_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/17JULY18_C-Monster_A/17JULY18_C-Monster_A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T3/lane_2/U54-HFFc64DN-FA-DSG-MNase-R2-T3_S4_L008_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R2-T2__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T2/U54-HFFc64DN-FA-DSG-MNase-R2-T2_S4_L004_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T2/U54-HFFc64DN-FA-DSG-MNase-R2-T2_S4_L004_R2_001.fastq.gz
+        U54-HFFc64DN-FA-DSG-MNase-R2-T1__hg38:
+            lane1:
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T1/U54-HFFc64DN-FA-DSG-MNase-R2-T1_S3_L003_R1_001.fastq.gz
+            - /nl/umw_job_dekker/cshare/data/2018/fastq/25JULY18_C-Monster-A/25JULY18_C-Monster-A_U54/U54-HFFc64DN-FA-DSG-MNase-R2-T1/U54-HFFc64DN-FA-DSG-MNase-R2-T1_S3_L003_R2_001.fastq.gz
+    library_groups:
+        U54-END4DN-FA-DSG-MNase-R1:
+        - U54-END4DN-FA-DSG-MNase-R1-T4__hg38
+        - U54-END4DN-FA-DSG-MNase-R1-T3__hg38
+        - U54-END4DN-FA-DSG-MNase-R1-T2__hg38
+        - U54-END4DN-FA-DSG-MNase-R1-T1__hg38
+        U54-END4DN-FA-DSG-MNase-R2:
+        - U54-END4DN-FA-DSG-MNase-R2-T4__hg38
+        - U54-END4DN-FA-DSG-MNase-R2-T3__hg38
+        - U54-END4DN-FA-DSG-MNase-R2-T2__hg38
+        - U54-END4DN-FA-DSG-MNase-R2-T1__hg38
+        U54-H1ESC4DN-FA-DSG-MNase-R1:
+        - U54-H1ESC4DN-FA-DSG-MNase-R1-T4__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R1-T3__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R1-T2__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R1-T1__hg38
+        U54-H1ESC4DN-FA-DSG-MNase-R2:
+        - U54-H1ESC4DN-FA-DSG-MNase-R2-T5__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R2-T4__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R2-T3__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R2-T2__hg38
+        - U54-H1ESC4DN-FA-DSG-MNase-R2-T1__hg38
+        U54-HFFc64DN-FA-DSG-MNase-R1:
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T6__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T5__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T4__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T3__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T2__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R1-T1__hg38
+        U54-HFFc64DN-FA-DSG-MNase-R2:
+        - U54-HFFc64DN-FA-DSG-MNase-R2-T5__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R2-T4__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R2-T3__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R2-T2__hg38
+        - U54-HFFc64DN-FA-DSG-MNase-R2-T1__hg38
+        U54-ESC-FA-DpnII:
+        - U54-ESC-FA-DpnII-030917__hg38
+        - U54-ESC4DN-FA-DpnII-2017524-R1-T2__hg38
+        - U54-ESC4DN-FA-DpnII-2017524-R1-T1__hg38
+        U54-END-FA-DpnII:
+        - U54-ENDMaehr-FA-DpnII-20181023-R2-T1__hg38
+        - U54-END-FA-DpnII-030917__hg38
+        U54-Hffc6-DSG-DdeI:
+        - U54-HFFc6-DSG-DdeI-20181023-R2-T1__hg38
+        - U54-HFFc6-DSG-DdeI-20180319-R1-T1__hg38
+        U54-Hffc6-DSG-DpnII:
+        - U54-HFFc6-DSG-DpnII-20190102-R2-T1__hg38
+        - U54-HFFc6-DSG-DpnII-20180319-R1-T1__hg38
+        U54-Hffc6-FA-DpnII:
+        - U54-HFFc6-p17-FA-DpnII-20170327__hg38
+        - U54-HFFc6-p22-FA-DpnII-20170327__hg38
+        U54-END-FA-DpnII_2:
+        - U54-hEND4DN-FA-DpnII-02082019-R3-T3__hg38
+        - U54-ENDMaehr-FA-DpnII-20181023-R2-T1__hg38
+        - U54-END-FA-DpnII-030917__hg38
+    genome:
+        assembly_name: hg38
+        bwa_index_wildcard_path: /nl/umw_job_dekker/cshare/reference/bwa/hg38/hg38*
+        chrom_sizes_path: /nl/umw_job_dekker/cshare/reference/sorted_chromsizes/hg38.reduced.chrom.sizes
+do_fastqc: false
+map:
+    chunksize: 28000000
+    mapping_options: ''
+parse:
+    make_pairsam: false
+    drop_seq: false
+    drop_readid: true
+    keep_unparsed_bams: false
+    parsing_options: --add-columns mapq
+dedup:
+    max_mismatch_bp: 1
+bin:
+    resolutions:
+    - 1000000
+    - 500000
+    - 250000
+    - 100000
+    - 50000
+    - 25000
+    - 10000
+    - 5000
+    - 2000
+    - 1000
+    balance: true
+    filters:
+        no_filter: ''
+        mapq_30: (mapq1>=30) and (mapq2>=30)
+output:
+    dirs:
+        processed_fastqs: results/processed_fastqs/
+        mapped_parsed_sorted_chunks: results/mapped_parsed_sorted_chunks
+        fastqc: results/fastqc/
+        pairs_library: results/pairs_library
+        coolers_library: results/coolers_library/
+        coolers_library_group: results/coolers_library_group/
+        stats_library_group: results/stats_library_group/
