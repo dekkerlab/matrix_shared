@@ -6,63 +6,81 @@ wildcard_constraints:
 ##############
 # fix that add a dict for pair dict ...
 
-cooler_path_dict = {k.rstrip('.no_filter.1000.mcool'):v for k,v in zip(config["samples"],config["cooler_path"])}
-pairs_path_dict = {k.rstrip('.no_filter.1000.mcool'):v for k,v in zip(config["samples"],config["pairs_path"])}
+cooler_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["samples"],config["cooler_path"])}
+pairs_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["samples"],config["pairs_path"])}
+output_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["samples"],config["output_path"])}
 
+#print(cooler_path_dict)
+#print(pairs_path_dict)
+
+
+
+# rule all:
+#     input:
+#        expand(
+#             ["{out_path}/compute_saddle/{hic_name}.{res}.mapq_30.cis.pdf",
+#             "{out_path}/insulation/{hic_name}.{res}.mapq_30.cis.bed"],zip,
+#             out_path=output_path_dict.values(),
+#             hic_name = cooler_path_dict.keys(),res=resolutions)
 
 localrules: all , compute_insulation, compute_n_clean_expected, call_compartments, compute_saddle, compute_scaling
 
 rule all:
     input:
        expand(
-            ["{out_path}/compute_saddle/{hic_name}.{res}.cis.pdf",
-            "{out_path}/insulation/{hic_name}.{res}.cis.bed","{{out_path}}/scaling/{{hic_name}}.scalingdata.npz"],zip,
-            out_path=config["output_path"],
-            # path = "/nl/umw_job_dekker/users/ba69w/HiC_Analysis/U54_deep/results/coolers_library_group/",
-            hic_name = [_.rstrip('.no_filter.1000.mcool') for _ in config["samples"]],res=resolutions)
+            ["{out_path}/compute_saddle/{hic_name}.{res}.mapq_30.cis.pdf",
+            "{out_path}/insulation/{hic_name}.{res}.mapq_30.cis.bed","{out_path}/scaling/{hic_name}.mapq_30.scalingdata.npz"],
+            out_path=output_path_dict.values(),
+            hic_name = cooler_path_dict.keys(),res=resolutions)
+
+#print(output_path_dict.values())
+#print(cooler_path_dict.keys())
 
 rule compute_insulation:
     input:
-        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.no_filter.1000.mcool' )
+        #lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name )
+        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.mapq_30.1000.mcool' )
     params:
         # we have to use something like that to prevent numpy from using threaded MKL ...
         mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
     output:
-        expand("{{out_path}}/insulation/{{hic_name}}.{res}.cis.bed",res=resolutions)
+        expand("{{out_path}}/insulation/{{hic_name}}.{res}.mapq_30.cis.bed",res=resolutions)
     run:
         for res, out_local in zip(resolutions, output):
             print("Trying to compute insulation for {}".format(res))
             print({input})
             shell(" {params.mkl_preamble} "+
-                "cooltools diamond-insulation --balance {input[0]}::/resolutions/{res} 200000 > {out_local}")
+                "cooltools diamond-insulation --balance {input}::/resolutions/{res} 200000 > {out_local}")
 
 rule compute_n_clean_expected:
     input:
-        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.no_filter.1000.mcool' )
+        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.mapq_30.1000.mcool' )
+        #lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name )
         #lambda wildcards: config["samples"][wildcards.sample]
     params:
         # we have to use something like that to prevent numpy from using threaded MKL ...
         mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
     output:
-        expand("{{out_path}}/expected/{{hic_name}}.{res}.cis.expected.tsv",res=resolutions)
+        expand("{{out_path}}/expected/{{hic_name}}.{res}.mapq_30.cis.expected.tsv",res=resolutions)
     threads: 9
     run:
         for res, out_local in zip(resolutions, output):
             print("Trying to compute expected for {}".format(res))
             print({input})
             shell(" {params.mkl_preamble} "+
-                "cooltools compute-expected -p {threads} --drop-diags 1 {input[0]}::/resolutions/{res} > {out_local}")
+                "cooltools compute-expected -p {threads} --drop-diags 1 {input}::/resolutions/{res} > {out_local}")
 
 rule call_compartments:
     input:
-        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.no_filter.1000.mcool' ),
-        gene_cov_file=expand("{{out_path}}/gene_cov.hg38.{res}.txt", res=resolutions)
+        lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.mapq_30.1000.mcool' ),
+        #lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name ),
+        gene_cov_file=expand("/nl/umw_job_dekker/users/ba69w/HiC_Analysis/U54_matrix/cooler_snakemake/gene_cov.hg38.{res}.txt", res=resolutions)
         #lambda wildcards: config["samples"][wildcards.sample]
     params:
         # we have to use something like that to prevent numpy from using threaded MKL ...
         mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
     output:
-        expand("{{out_path}}/call_compartments/{{hic_name}}.{res}.cis.vecs.tsv",res=resolutions)
+        expand("{{out_path}}/call_compartments/{{hic_name}}.{res}.mapq_30.cis.vecs.tsv",res=resolutions)
     threads: 9
     run:
         for res, out_local, gene_cov_file in zip(resolutions, output,input.gene_cov_file):
@@ -75,42 +93,45 @@ rule call_compartments:
 
 rule compute_saddle:
     input:
-        cool = lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.no_filter.1000.mcool' ),
+        cool = lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name+'.mapq_30.1000.mcool' ),
+        #cool = lambda wc: os.path.join( cooler_path_dict[wc.hic_name], wc.hic_name ),
         ############## my suggestion use os.path.join instead of text formatting ...
         # lambda wc: "{}/{}.no_filter.1000.mcool".format(dict_where_keys_arehic_names_and_values_are_cool_paths[wc.hic_name],wc.hic_name)
         #
         ###############
         #cool = lambda wc: os.path.join({cool_path},{hic_name}),
-        expected = expand("{{out_path}}/expected/{{hic_name}}.{res}.cis.expected.tsv",res=resolutions),
-        tsv_comp = expand("{{out_path}}/call_compartments/{{hic_name}}.{res}.cis.vecs.tsv",res=resolutions)
+        expected = expand("{{out_path}}/expected/{{hic_name}}.{res}.mapq_30.cis.expected.tsv",res=resolutions),
+        tsv_comp = expand("{{out_path}}/call_compartments/{{hic_name}}.{res}.mapq_30.cis.vecs.tsv",res=resolutions)
 
         #lambda wildcards: config["samples"][wildcards.sample]
     params:
         # we have to use something like that to prevent numpy from using threaded MKL ...
         mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
     output:
-        expand("{{out_path}}/compute_saddle/{{hic_name}}.{res}.cis.pdf", res=resolutions)
+        expand("{{out_path}}/compute_saddle/{{hic_name}}.{res}.mapq_30.cis.pdf", res=resolutions)
     run:
         for res,expected,tsv_comp,out_local in zip(resolutions,input.expected,input.tsv_comp,output):
-            out_local_prefix=out_local.rstrip('.cis.pdf')
+            out_local_prefix=out_local.rstrip('.pdf')
             print("Trying to compute saddle for {}".format(res))
+            shell ("echo {input.cool}")
             shell(" {params.mkl_preamble} "+
-                "cooltools compute-saddle --strength --vmin -1 --vmax 1 --qrange 0.02 0.98 --contact-type cis --out-prefix {out_local_prefix} --fig pdf {input.cool}::/resolutions/{res} {tsv_comp} {expected}")
+                "cooltools compute-saddle --strength --vmin -0.5 --vmax 0.5 --qrange 0.02 0.98 --contact-type cis --out-prefix {out_local_prefix} --fig pdf {input.cool}::/resolutions/{res} {tsv_comp} {expected}")
+chrom_sizes = "/nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes"
 
 rule compute_scaling:
     input:
-        pairs = lambda wc: os.path.join( pairs_path_dict[wc.hic_name], wc.hic_name+'.nodups.pairs.gz' ),
-        chrom_sizes = "/nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes"
+        lambda wc: os.path.join( pairs_path_dict[wc.hic_name], wc.hic_name+'.nodups.pairs.gz' ),
+        #pairs = lambda wc: os.path.join( pairs_path_dict[wc.hic_name], wc.hic_name ),
+        #chrom_sizes = "/nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes"
     params:
         # we have to use something like that to prevent numpy from using threaded MKL ...
         mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
     output:
-        "{{out_path}}/scaling/{{hic_name}}.scalingdata.npz"
+        "{{out_path}}/scaling/{{hic_name}}.mapq_30.scalingdata.npz"
     threads: 8
     run:
-        for pairs_file,chrom_sizes,out_local in zip(input.pairs,input.chrom_sizes,output):
+        for pairs_file,out_local in zip(input,output):
             out_local_prefix=out_local.rstrip('.scalingdata.npz')
-            print("Scaling in running")
+            shell ("echo {input.pairs}")
             shell(" {params.mkl_preamble} "+
-                "python /nl/umw_job_dekker/users/ba69w/HiC_Analysis/U54_matrix/cooler_analysis_old_mapping/scaling_script_multiprocess.py -p {thread} --dmin 1000 --dmax 200000000 -o {out_local_prefix} {pairs_file} {chrom_sizes} ")
-
+                "python /nl/umw_job_dekker/users/ba69w/HiC_Analysis/U54_matrix/cooler_analysis_old_mapping/scaling_script_multiprocess.py -p {thread} --dmin 1000 --dmax 200000000 -o {out_local_prefix} {pairs_file} /nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes ")
