@@ -1,4 +1,4 @@
-resolutions = [25000,50000]
+resolutions = [100000,50000]
 
 wildcard_constraints:
     res="\d+"
@@ -10,26 +10,14 @@ cooler_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["sam
 pairs_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["samples"],config["pairs_path"])}
 output_path_dict = {k.rstrip('.mapq_30.1000.mcool'):v for k,v in zip(config["samples"],config["output_path"])}
 
-#print(cooler_path_dict)
-#print(pairs_path_dict)
 
-
-
-# rule all:
-#     input:
-#        expand(
-#             ["{out_path}/compute_saddle/{hic_name}.{res}.mapq_30.cis.pdf",
-#             "{out_path}/insulation/{hic_name}.{res}.mapq_30.cis.bed"],zip,
-#             out_path=output_path_dict.values(),
-#             hic_name = cooler_path_dict.keys(),res=resolutions)
-
-localrules: all , compute_insulation, compute_n_clean_expected, call_compartments, compute_saddle, compute_scaling
+localrules: all , compute_insulation, compute_n_clean_expected, call_compartments, compute_saddle
 
 rule all:
     input:
        expand(
             ["{out_path}/compute_saddle/{hic_name}.{res}.mapq_30.cis.pdf",
-            "{out_path}/insulation/{hic_name}.{res}.mapq_30.cis.bed","{out_path}/scaling/{hic_name}.mapq_30.scalingdata.npz"],
+            "{out_path}/insulation/{hic_name}.{res}.mapq_30.cis.bed"],
             out_path=output_path_dict.values(),
             hic_name = cooler_path_dict.keys(),res=resolutions)
 
@@ -116,22 +104,3 @@ rule compute_saddle:
             shell ("echo {input.cool}")
             shell(" {params.mkl_preamble} "+
                 "cooltools compute-saddle --strength --vmin -0.5 --vmax 0.5 --qrange 0.02 0.98 --contact-type cis --out-prefix {out_local_prefix} --fig pdf {input.cool}::/resolutions/{res} {tsv_comp} {expected}")
-chrom_sizes = "/nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes"
-
-rule compute_scaling:
-    input:
-        lambda wc: os.path.join( pairs_path_dict[wc.hic_name], wc.hic_name+'.nodups.pairs.gz' ),
-        #pairs = lambda wc: os.path.join( pairs_path_dict[wc.hic_name], wc.hic_name ),
-        #chrom_sizes = "/nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes"
-    params:
-        # we have to use something like that to prevent numpy from using threaded MKL ...
-        mkl_preamble = "export MKL_NUM_THREADS=1;\n echo threads MKL $MKL_NUM_THREADS;\n"
-    output:
-        "{{out_path}}/scaling/{{hic_name}}.mapq_30.scalingdata.npz"
-    threads: 8
-    run:
-        for pairs_file,out_local in zip(input,output):
-            out_local_prefix=out_local.rstrip('.scalingdata.npz')
-            shell ("echo {input.pairs}")
-            shell(" {params.mkl_preamble} "+
-                "python /nl/umw_job_dekker/users/ba69w/HiC_Analysis/U54_matrix/cooler_analysis_old_mapping/scaling_script_multiprocess.py -p {thread} --dmin 1000 --dmax 200000000 -o {out_local_prefix} {pairs_file} /nl/umw_job_dekker/users/ba69w/genome/hg38.reduced.chrom.sizes ")
